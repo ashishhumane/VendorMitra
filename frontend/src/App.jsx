@@ -4,7 +4,7 @@ import Products from './pages/products.jsx'
 import AddProductPage from './pages/addProduct.jsx'
 import SupplierDashboard from './pages/supplierDashboard.jsx'
 import Landing from './pages/landing.jsx'
-import Login from './pages/Login.jsx';
+import Login from './pages/Login.jsx'
 import Signup from './pages/Signup.jsx'
 import VendorDashboard from './pages/venDashborad.jsx';
 import ProtectedRoute from './components/rolebasedauth.jsx';
