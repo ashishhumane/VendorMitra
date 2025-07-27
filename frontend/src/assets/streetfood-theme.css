@@ -1,0 +1,73 @@
+
+body, .streetfood-bg {
+  background: linear-gradient(135deg, #fffbe6 0%, #ffe5b4 50%, #ffd6e0 100%) !important;
+  background-image: url('https://www.transparenttextures.com/patterns/food.png');
+}
+
+.streetfood-card {
+  background: #fff8e1;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 16px 0 rgba(255, 140, 0, 0.08);
+  border: 2px solid #ffb347;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+.streetfood-card:hover {
+  box-shadow: 0 8px 32px 0 rgba(255, 140, 0, 0.18);
+}
+
+.streetfood-btn {
+  background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+  color: #fff;
+  border-radius: 9999px;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px 0 rgba(255, 140, 0, 0.12);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.streetfood-btn:hover {
+  background: linear-gradient(90deg, #ffb347 0%, #ff9800 100%);
+  box-shadow: 0 4px 16px 0 rgba(255, 140, 0, 0.18);
+}
+
+.streetfood-navbar {
+  background: #fff3e0;
+  border-bottom: 3px solid #ff9800;
+  box-shadow: 0 2px 8px 0 rgba(255, 140, 0, 0.08);
+  padding: 1rem 2rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.streetfood-title {
+  font-family: 'Baloo Bhai 2', cursive, sans-serif;
+  color: #ff5722;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 0 #fffbe6;
+}
+
+/* Example: Add this to index.html <head> for Baloo Bhai font: */
+/* <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet"> */ 
+
+
+.perspective {
+  perspective: 1200px;
+}
+
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
