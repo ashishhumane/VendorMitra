@@ -1,8 +1,8 @@
 import '../assets/streetfood-theme.css';
 import TestimonialsCard from '../components/testimonials.jsx';
-import Login from './Login.jsx';
+
 import { motion } from 'framer-motion';
-import Signup from './Signup.jsx';
+
 import marketimage from '../assets/marketimage.jpg'
 import { Link } from 'react-router-dom';
 
