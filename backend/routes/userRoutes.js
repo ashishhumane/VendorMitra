@@ -31,7 +31,7 @@ router.post('/create', async (req, res) => {
     res.cookie('token', token, {
       httpOnly: true,
       secure: true, // true in production
-      sameSite: 'Lax',
+      sameSite: 'None',
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
     console.log(token);
@@ -70,7 +70,7 @@ router.post('/login', async (req, res) => {
     res.cookie('token', token, {
       httpOnly: true,
       secure: true, // set to true in production with HTTPS
-      sameSite: 'Lax', // or 'None' if using different domains and HTTPS
+      sameSite: 'None', // or 'None' if using different domains and HTTPS
       maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
     });
 
