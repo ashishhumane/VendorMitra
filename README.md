@@ -51,18 +51,4 @@
 -npm install
 -npm run dev
 
-## ⚙️ Folder Structure
 
-vendorMitra/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   └── ...
-├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   ├── components/
-│   │   ├── context/
-│   │   └── ...
-├── README.md
