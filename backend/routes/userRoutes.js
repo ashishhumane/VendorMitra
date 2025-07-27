@@ -30,7 +30,7 @@ router.post('/create', async (req, res) => {
     const token = generateToken(newUser);
     res.cookie('token', token, {
       httpOnly: true,
-      secure: false, // true in production
+      secure: true, // true in production
       sameSite: 'Lax',
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
@@ -69,7 +69,7 @@ router.post('/login', async (req, res) => {
 
     res.cookie('token', token, {
       httpOnly: true,
-      secure: false, // set to true in production with HTTPS
+      secure: true, // set to true in production with HTTPS
       sameSite: 'Lax', // or 'None' if using different domains and HTTPS
       maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
     });
