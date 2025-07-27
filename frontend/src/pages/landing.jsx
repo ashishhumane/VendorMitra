@@ -39,17 +39,19 @@ export default function Home() {
       </motion.header>
 
       {/* Hero Section */}
-      <section className="grid md:grid-cols-2 gap-10 items-center mb-20 ml-30 mt-20">
+        <section className="grid md:grid-cols-2 gap-10 items-center mb-20 ml-20 mt-20">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h2 className="text-4xl font-extrabold text-orange-700 mb-4">Bringing the Flavor of the Streets to Your Business!</h2>
-          <p className="mt-9 text-lg text-orange-800">
-            Join hands with fellow vendors to buy together, save more, and enjoy the vibrant spirit of Indian street food culture. <br />
-            <span className="font-bold">Bulk savings, trusted suppliers, and a community that feels like family!</span>
-          </p>
+         <h2 className="text-4xl font-extrabold text-orange-700 mb-4">
+  Empowering Street Vendors with Smart Buying and Stronger  Networks
+</h2>
+<p className="mt-9 text-lg text-orange-800">
+  Collaborate with fellow vendors, place bulk orders, and connect with trusted suppliers — all through a single, easy-to-use platform. <br />
+  <span className="font-bold">Save more, grow faster, and be part of a united vendor community!</span>
+</p>
           <motion.div
             className="mt-8"
             whileHover={{ scale: 1.05 }}
@@ -78,7 +80,7 @@ export default function Home() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="mb-20 mt-50"
+        className="mb-20 mt-[65px]"
       >
         <h3 className="text-2xl font-extrabold text-center text-orange-700 mb-8">Our Impact in Numbers</h3>
         <div className="grid md:grid-cols-4 gap-6">
